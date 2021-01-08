@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="text typewriter">
+    <h1>Anusikh Tanmaya Panda</h1>
+</div>
+
+<div class="menu">
+    <a href="https://github.com/anusikh"><button type="button" class="btn btn-dark btn-lg"><i class="fa fa-github"
+                aria-hidden="true"></i> Github</button></a>
+    <a href="https://www.linkedin.com/in/anusikh-panda-6512a31a2/"><button type="button" class="btn btn-dark btn-lg"><i
+                class="fa fa-linkedin icog" aria-hidden="true"></i> LinkedIn</button></a>
+</div>
+
+<div class="terminal">
+  <div class=fakeMenu>
+    <div class="fakeButtons fakeClose"></div>
+    <div class="fakeButtons fakeMinimize"></div>
+    <div class="fakeButtons fakeZoom"></div>
+  </div>
+  <div class="fakeScreen">
+    <p class="line1">&#91;&nbsp;&ldquo;I'm a student.&rdquo;,<span class="cursor1">_</span></p>
+    <p class="line2">&nbsp;&nbsp;&ldquo;I love to code.&rdquo;,<span class="cursor2">_</span></p>
+    <p class="line3">&nbsp;&nbsp;&ldquo;Let's work together!&rdquo;&nbsp;&#93;<span class="cursor3">_</span></p>
+    <p class="line4">><span class="cursor4">_</span></p>
+  </div>
+</div>
+
+<div class="content">
+    Hey! My name is Anusikh. I'm a 20 year old CSE Undergrad from KIIT University, Bhubaneshwar, India.
+    <br> 
+    I love to code and would someday like to develope software that can be used by the masses.
+</div>
+
+<div class="menu">
+    <a href="{{ url_for('project')}}"><button type="button" class="btn btn-dark btn-lg"><i class="fa fa-book icog" aria-hidden="true"></i> Projects</button></a>
+</div>
+
+<div class="menu">
+  <a href="{{ url_for('contact')}}"><button type="button" class="btn btn-dark btn-lg"><i class="fa fa-address-book icog" aria-hidden="true"></i> Contact</button></a>
+</div>
+
+<div class="content">
+  Just in case, you wanted to see my CV :)
+</div>
+
+<div class="menu">
+  <a href="https://drive.google.com/file/d/1qOrb87Tn-ZeWq-1UK2JZq4qu67A1YV0k/view?usp=sharing"><button type="button" class="btn btn-dark btn-lg"><i class="fa fa-paperclip icog" aria-hidden="true"></i> CV</button></a>
+</div>
+
+{% endblock %}
