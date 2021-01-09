@@ -5,6 +5,10 @@
     background: black;
 }
 
+.dark-mode {
+  filter: invert(100%);
+}
+
 html {
     scroll-behavior: smooth;
 }
